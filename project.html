@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Seyi Adedokun</title>
+        <meta name="description" content="Portfolio of Seyi Adedokun">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/theme-switcher.css">
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>  
+        <div id="particles-js"></div>
+
+        <div id="container--main">
+           <div id="container--main-project">
+            
+           </div>
+           
+        </div>
+        <div id="theme-switcher">
+            <div>Theme</div>
+            <div class="theme" id="theme-light" data-theme="light"></div>
+            <div class="theme" id="theme-dark" data-theme="dark"></div>
+        </div>
+    </body>
+
+    <script src="js/project.js"></script>
+    <script src="js/theme-switcher.js"></script>
+    <!-- <script type="module" src="script.js"></script> -->
+    <script>
+        AOS.init({
+              duration: 1000, // Animation duration in ms
+              easing: "ease-in-out", // Smooth transition
+              once: false, // Animation happens once
+          });
+      particlesJS("particles-js", {
+          particles: {
+              number: { value: 50, density: { enable: true, value_area: 800 } },
+              color: { value: "#000000" },  // Black particles for white background
+              shape: { type: "circle" },
+              opacity: { value: 0.3, random: true },
+              size: { value: 10, random: true },
+              move: { speed: 2, direction: "top", out_mode: "out" },
+          }
+      });
+  </script>
+</html>

@@ -1,0 +1,122 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Amevye Matthew</title>
+        <meta name="description" content="Portfolio of Amevye Matthew">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/images/favicon.png">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/theme-switcher.css">        
+        <link rel="stylesheet" href="./assets/fontawesome/css/custom.css"> 
+        <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css"> 
+        <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.all.min.css"> 
+        <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.min.css">
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    </head>
+    <body>
+        <div id="particles-js"></div>
+        <div class="watermark" id="watermark"></div>
+
+        <div id="container--main">
+
+            <section id="wrapper--hero" class="section--page" data-aos="fade-up">
+                <img id="profile-pic" src="./assets/images/profile_pic.jpeg">
+                <div>
+                    <h1 id="user-name">Amevye Matthew</h1>
+                    <p id="bio">Full stack Engineer | MERN | Next.js | Express |. Passionate about building scalable applications and creating modern web architecture. </p>
+                    <p id="email">
+                        <a href="mailto:amevyematthew@gmail.com" style="margin-left: 50px;" class="icon-btn"><i class="fa-regular fa-envelope email-icon social-icon"></i> Email me</a> &nbsp; 
+                        <a href="https://tel:+2349064318992" target="_blank" style="margin-left: 150px;" class="icon-btn"><i class="fa-solid fa-phone-volume call-icon social-icon"></i> Call now</a>
+                    </p>
+                </div>  
+            </section>
+
+            <section class="section--page" data-aos="fade-up">
+                <div id="socials--list">
+                    <!-- <a href="https://www.youtube.com/@code_with_sheynet" target="_blank">Youtube</a> -->
+                    <a href="https://www.dicelinktree.wuaze.com" target="_blank" class="icon-btn"><i class="fa-solid fa-link linktree-icon social-icon"></i> Linktree</a>
+                    <!-- <a href="https://www.dicelinktree.wuaze.com" target="_blank"><i class="fa-solid fa-share-nodes"></i>Linktree</a> -->
+                    <a href="https://wa.me/2349064318992?text=Hello%20Matthew,%20are%20you%20presently%20available%20for...." target="_blank" class="icon-btn"><i class="fa-brands fa-whatsapp whatsapp-icon  social-icon"></i> WhatsApp</a>
+                    <a href="https://www.linkedin.com/in/amevye-matthew/" target="_blank" class="icon-btn"><i class="fa-brands fa-linkedin linkedin-icon social-icon"></i> LinkedIn</a>
+                    <a href="https://github.com/DiceTech435" target="_blank" class="icon-btn"><i class="fa-brands fa-github github-icon social-icon"></i> Github</a>
+                    <!-- <a href="./assets/resume.pdf" target="_blank"></i><i class="fa-solid fa-file"></i></a> -->
+                    <a href="./assets/resume.pdf" target="_blank" class="icon-btn"><i class="fa-solid fa-file-lines resume-icon social-icon"></i> Resume</a>
+                </div>
+            </section>
+
+            <section class="section--page">
+                <h2 data-aos="flip-left">Qualifications</h2>
+                <ul id="qualifications--list">
+                    <li data-aos="fade-up">✔️ Built full-stack web applications using React and Node.js</li>
+                    <li data-aos="fade-up">✔️ Developed scalable REST APIs with Express.js</li>
+                    <li data-aos="fade-up">✔️ Implemented secure authentication systems using JWT</li>
+                    <li data-aos="fade-up">✔️ Designed responsive and user-friendly interfaces</li>
+                    <li data-aos="fade-up">✔️ Integrated third-party APIs for enhanced application functionality</li>
+                    <li data-aos="fade-up">✔️ Deployed applications to cloud platforms for production use</li>
+                </ul>
+            </section>
+
+            <section class="section--page">
+                <h2 data-aos="flip-up">Technical Skills</h2>
+                <div data-aos="zoom-in" id="wrapper--techstack__items">
+                </div>
+            </section>
+            <section id="work-history-wrapper" class="section--page">
+                <h2 data-aos="fade-right">Work History</h2>
+                <!-- <div data-aos="fade-left" id="work-history"></div> -->
+                <div  id="work-history"></div>
+
+            </section>
+            
+            <section class="section--page">
+                <h2 data-aos="fade-down">Projects & Accomplishments</h2>
+            <div data-aos="fade-up" class="page-section--page"></div>
+              
+            </section>
+       
+            
+        </div>
+        <div id="theme-switcher">
+            <div class="theme" id="theme-light" data-theme="light"></div>
+            <div class="theme" id="theme-dark" data-theme="dark"></div>
+        </div>
+    </body>
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/index.js"></script>
+    <script  src="js/projectList.js"></script>
+    <script src="./assets/fontawesome/js/fontawesome.all.min.js"></script>
+    
+    <script>
+          AOS.init({
+                duration: 1000, // Animation duration in ms
+                easing: "ease-in-out", // Smooth transition
+                once: false, // Animation happens once
+            });
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 100, density: { enable: true, value_area: 800 } },
+                color: { value: "#000000" },  // Black particles for white background
+                shape: { type: "circle" },
+                opacity: { value: 0.3, random: true },
+                size: { value: 10, random: true },
+                move: { speed: 2, direction: "top", out_mode: "out" },
+            }
+        });
+
+        const watermarkContainer = document.getElementById("watermark");
+
+    for (let i = 0; i < 50; i++) { // Adjust for density
+        let watermarkText = document.createElement("span");
+        // watermarkText.innerText = "Seyi Adedokun"; // Change to your name
+        watermarkText.style.top = `${Math.random() * 100}%`;
+        watermarkText.style.left = `${Math.random() * 100}%`;
+        watermarkContainer.appendChild(watermarkText);
+    }
+    </script>
+</html>

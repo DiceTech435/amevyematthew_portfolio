@@ -1,0 +1,52 @@
+.icon-btn{
+    /* background-color: #0a66c2; */
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.icon-btn:hover{
+    opacity: 1;
+    transition: 0.4s ease ease-out;
+}
+
+.social-icon{
+    color: black;
+    transition: 0.3s ease;
+}
+
+.social-icon:hover{
+    color: #0a66c2;
+}
+
+.email-icon{
+    color: #e63946;
+    /* color: #d44638; */
+}
+
+.linkedin-icon{
+    color: #0a66c2;
+}
+
+.whatsapp-icon{
+    color: #26c05e;
+}
+
+.github-icon{
+    color: #000000;
+}
+
+.call-icon{
+    color: #34b7f1;
+}
+
+.resume-icon{
+    color: rgb(15, 228, 15);
+}
+
+.linktree-icon{
+    color: #312727;
+}

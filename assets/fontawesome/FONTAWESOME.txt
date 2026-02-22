@@ -1,0 +1,14 @@
+   <!-- FONTAWESOME -->
+   
+-Install Locally (Offline Usage)
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+<i class="fas fa-home"></i> Home  
+<i class="fab fa-facebook"></i> Facebook  
+<i class="fas fa-check-circle"></i> Success  
+
+-Use Font Awesome with NPM (for dev workflows)
+    npm install @fortawesome/fontawesome-free
+    import '@fortawesome/fontawesome-free/css/all.min.css';
