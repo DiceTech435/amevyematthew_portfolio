@@ -4,7 +4,7 @@
 Built to highlight my technical expertise, creativity, and problem-solving abilities.</p><p>
 
 🚀 <b>Live Demo</b>
-🔗 View Live Site: [https://matthew-amevye.vercel.app/]
+🔗 View Live Site: [https://amevyematthew.vercel.app/]
 
 ![App Screenshot](./assets/images/portfolio.png)
 
