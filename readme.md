@@ -30,8 +30,8 @@ Optimized performance and accessibility
 - WhatsApp - +234 906 431 8992       <br>                                   
 - Linkedin - Amevye Matthew - https://linkedin.com/in/amevye-matthew     <br>                           
 - Mail - amevyematthew@gmail.com, matexymiracle@gmail.com     <br>                      
-- Portfolio - https://amevye-matthew.wuaze.com    <br>                      
-- Link Tree - https://dicelinktree.wuaze.com    <br> 
+- Portfolio - https://amevyematthew.vercel.app   <br>                      
+- Link Tree - https://dice-linktree.vercel.app    <br> 
  
 <p>
  ***feel free to send me a DM for any Error or help concerning Frontend***
